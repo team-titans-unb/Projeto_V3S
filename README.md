@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 # Corobeu Project
 
 Este projeto é uma aplicação para controle e comunicação com um robô, utilizando um controlador PID para regular seu comportamento. Abaixo estão as informações sobre a estrutura do projeto e como utilizá-lo.
@@ -46,3 +47,6 @@ Sinta-se à vontade para contribuir com melhorias e correções. Para isso, faç
 ## Licença
 
 Este projeto está licenciado sob a MIT License - veja o arquivo [LICENSE](LICENSE) para mais detalhes.
+=======
+# vsss-software
+>>>>>>> b32931520b20ce49a77eb4677d5576935039741a
