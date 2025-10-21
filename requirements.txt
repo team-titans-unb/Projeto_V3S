@@ -1,6 +1,0 @@
-numpy
-pandas
-matplotlib
-protobuf
-opencv-python
-scikit-learn
