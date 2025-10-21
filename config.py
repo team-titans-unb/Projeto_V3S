@@ -1,7 +1,7 @@
 # Arquivo de configuração global do projeto
 
 # Endereço IP do robô
-ROBOT_IP = "192.168.1.100"
+# ROBOT_IP = "192.168.1.100"
 
 # Porta para comunicação com o robô
 ROBOT_PORT = 5000
