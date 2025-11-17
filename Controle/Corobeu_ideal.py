@@ -5,7 +5,7 @@ import struct
 import signal
 from configs import wrapper_pb2 as wr
 import sys
-from configs.config import IP_KRATOS, ID_KRATOS, COR_DO_TIME
+from vsss.config.config import IP_KRATOS, ID_KRATOS, COR_DO_TIME
 
 
 def init_vision_socket(VISION_IP="224.5.23.2", VISION_PORT=10015):

@@ -5,7 +5,7 @@ from vsss.protos import wrapper_pb2 as wr
 
 class VisionReceiver:
     """
-    Uma classe dedicada a gerir a conexão com o socket de visão SSL.
+    Uma classe dedicada a gerir a conexão com o socket de visão VSSS.
     Encapsula a inicialização e a recepção de pacotes de visão.
     """
 
@@ -39,7 +39,7 @@ class VisionReceiver:
         sock.bind((self.vision_ip, self.vision_port))
         return sock
 
-    def receive_packet(self) -> wr.SSL_WrapperPacket | None:
+    def receive_packet(self) -> wr.SSL_WrapperPacket | None: # type: ignore
         """
         Ouve o socket, recebe um pacote e o desserializa usando Protocol Buffers.
         Retorna o pacote desserializado ou None em caso de erro.
